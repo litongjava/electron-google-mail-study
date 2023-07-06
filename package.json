@@ -18,6 +18,7 @@
   },
   "license": "MIT",
   "dependencies": {
+    "electron-context-menu": "^3.6.1",
     "electron-squirrel-startup": "^1.0.0"
   },
   "devDependencies": {
@@ -31,7 +32,7 @@
     "electron-builder": "^24.4.0"
   },
   "build": {
-    "productName": "Google-Mail-Study",
+    "productName": "electron-google-mail-study",
     "appId": "com.litongjava.google.mail.study",
     "directories": {
       "output": "dist"
